@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marketing Efficiency | Maximize Your ROI</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <div class="logo">Market<span class="highlight">Flow</span></div>
+            <ul class="nav-links">
+                <li><a href="#strategy">Strategy</a></li>
+                <li><a href="#execution">Execution</a></li>
+                <li><a href="#growth">Growth</a></li>
+                <li><a href="#contact" class="btn-nav">Get Started</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container hero-content">
+            <h1>Maximizing Marketing Efficiency</h1>
+            <p>Stop guessing. Start scaling. We help you bridge the gap between creative strategy and data-driven execution to unlock true ROI.</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary">Start Your Audit</a>
+                <a href="#process" class="btn btn-secondary">View Process</a>
+            </div>
+        </div>
+        <div class="hero-bg-graphic"></div>
+    </header>
+
+    <!-- The Core Concept (Based on Infographic Center) -->
+    <section id="process" class="core-concept">
+        <div class="container">
+            <div class="concept-card">
+                <h2>The Efficiency Engine</h2>
+                <p>True marketing power comes from balancing four key pillars. We integrate these into a unified system.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- The 4 Pillars (Grid Layout) -->
+    <section class="pillars">
+        <div class="container grid-container">
+            
+            <!-- Pillar 1: Strategy -->
+            <div class="pillar-card strategy">
+                <div class="icon-box red-icon">
+                    <i class="fas fa-bullhorn"></i>
+                </div>
+                <h3>Audience Targeting</h3>
+                <p>Define your ideal customer profile with precision. We use psychographics and behavioral data to ensure your message reaches the people who actually care.</p>
+            </div>
+
+            <!-- Pillar 2: Execution -->
+            <div class="pillar-card execution">
+                <div class="icon-box blue-icon">
+                    <i class="fas fa-handshake"></i>
+                </div>
+                <h3>ROI Scaling</h3>
+                <p>Move beyond vanity metrics. We focus on scalable acquisition channels that deliver measurable returns on every dollar spent.</p>
+            </div>
+
+            <!-- Pillar 3: Optimization -->
+            <div class="pillar-card optimization">
+                <div class="icon-box dark-icon">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <h3>Campaign Optimization</h3>
+                <p>Continuous A/B testing and real-time adjustments. We refine ad copy, visuals, and bidding strategies to lower CPA and increase conversion rates.</p>
+            </div>
+
+            <!-- Pillar 4: Growth -->
+            <div class="pillar-card growth">
+                <div class="icon-box gold-icon">
+                    <i class="fas fa-shopping-cart"></i>
+                </div>
+                <h3>Sustainable Growth</h3>
+                <p>Build a loyal customer base, not just a list of leads. We implement retention strategies that turn one-time buyers into brand advocates.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Simple, Transparent Pricing</h2>
+                <p>Choose the plan that fits your growth stage.</p>
+                
+                <!-- Toggle Switch -->
+                <div class="pricing-toggle">
+                    <span class="toggle-label active" id="label-monthly">Monthly</span>
+                    <label class="switch">
+                        <input type="checkbox" id="billing-cycle">
+                        <span class="slider round"></span>
+                    </label>
+                    <span class="toggle-label" id="label-yearly">Yearly <span class="discount-badge">Save 20%</span></span>
+                </div>
+            </div>
+
+            <div class="pricing-grid">
+                <!-- Starter Plan -->
+                <div class="price-card">
+                    <div class="card-header">
+                        <h3>Starter</h3>
+                        <p>For small teams getting started.</p>
+                    </div>
+                    <div class="price-display">
+                        <span class="currency">$</span>
+                        <span class="amount" data-monthly="49" data-yearly="39">49</span>
+                        <span class="period">/mo</span>
+                    </div>
+                    <ul class="features-list">
+                        <li><i class="fas fa-check"></i> Basic Audience Targeting</li>
+                        <li><i class="fas fa-check"></i> 5 Active Campaigns</li>
+                        <li><i class="fas fa-check"></i> Email Support</li>
+                        <li class="disabled"><i class="fas fa-times"></i> Advanced Analytics</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-secondary btn-block">Choose Starter</a>
+                </div>
+
+                <!-- Pro Plan (Highlighted) -->
+                <div class="price-card popular">
+                    <div class="popular-tag">Most Popular</div>
+                    <div class="card-header">
+                        <h3>Growth</h3>
+                        <p>For scaling businesses.</p>
+                    </div>
+                    <div class="price-display">
+                        <span class="currency">$</span>
+                        <span class="amount" data-monthly="99" data-yearly="79">99</span>
+                        <span class="period">/mo</span>
+                    </div>
+                    <ul class="features-list">
+                        <li><i class="fas fa-check"></i> Advanced Targeting</li>
+                        <li><i class="fas fa-check"></i> Unlimited Campaigns</li>
+                        <li><i class="fas fa-check"></i> Priority Support</li>
+                        <li><i class="fas fa-check"></i> A/B Testing Tools</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary btn-block">Choose Growth</a>
+                </div>
+
+                <!-- Enterprise Plan -->
+                <div class="price-card">
+                    <div class="card-header">
+                        <h3>Enterprise</h3>
+                        <p>For large organizations.</p>
+                    </div>
+                    <div class="price-display">
+                        <span class="currency">$</span>
+                        <span class="amount" data-monthly="199" data-yearly="159">199</span>
+                        <span class="period">/mo</span>
+                    </div>
+                    <ul class="features-list">
+                        <li><i class="fas fa-check"></i> Dedicated Account Manager</li>
+                        <li><i class="fas fa-check"></i> Custom API Access</li>
+                        <li><i class="fas fa-check"></i> White-label Reports</li>
+                        <li><i class="fas fa-check"></i> SLA Guarantee</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-secondary btn-block">Contact Sales</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Measurement / CTA Section -->
+    <section class="measurement-cta">
+        <div class="container">
+            <div class="measurement-content">
+                <div class="text-side">
+                    <h2>Data-Driven Measurement</h2>
+                    <p>We don't just launch campaigns; we measure their heartbeat. Our proprietary dashboard gives you full visibility into performance across all devices and channels.</p>
+                    <ul class="check-list">
+                        <li><i class="fas fa-check-circle"></i> Real-time Analytics</li>
+                        <li><i class="fas fa-check-circle"></i> Cross-Device Tracking</li>
+                        <li><i class="fas fa-check-circle"></i> Automated Reporting</li>
+                    </ul>
+                </div>
+                <div class="form-side" id="contact">
+                    <h3>Ready to Optimize?</h3>
+                    <form id="leadForm">
+                        <input type="email" placeholder="Enter your work email" required>
+                        <button type="submit" class="btn btn-primary btn-block">Get Free Consultation</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2023 MarketFlow Agency. All rights reserved.</p>
+            <div class="socials">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
